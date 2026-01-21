@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+/* Di Tailwind v4, kita mendefinisikan warna kustom langsung sebagai CSS custom properties */
+:root {
+  --color-primary: #6366F1;
+  --color-secondary: #06B6D4;
+  --color-dark-bg: #0F172A;
+  --color-light-bg: #F8FAFC;
+  
+  --font-heading: "Poppins", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+
+/* Sekarang kita bisa pakai variabel tersebut */
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-light-bg);
+  color: var(--color-dark-bg);
+  transition-property: color, background-color;
+  transition-duration: 300ms;
+}
+
+/* Jika dalam mode gelap (class 'dark' di html) */
+.dark body {
+  background-color: var(--color-dark-bg);
+  color: #fff;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-heading);
+}
