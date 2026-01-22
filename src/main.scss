@@ -1,17 +1,22 @@
 @import "tailwindcss";
 
-/* Di Tailwind v4, kita mendefinisikan warna kustom langsung sebagai CSS custom properties */
-:root {
-  --color-primary: #6366F1;
-  --color-secondary: #06B6D4;
-  --color-dark-bg: #0F172A;
-  --color-light-bg: #F8FAFC;
-  
-  --font-heading: "Poppins", sans-serif;
-  --font-body: "Inter", sans-serif;
-}
 
-/* Sekarang kita bisa pakai variabel tersebut */
+  :root {
+    --color-primary: #030625;
+    --color-secondary: #06B6D4;
+    --color-dark-bg: #020625;
+    --color-light-bg: #F8FAFC;
+    --color-btnSatu: #0B3AFB;
+    --color-colorhover: #06A7FF;
+
+    --font-heading: "Poppins", sans-serif;
+    --font-body: "Inter", sans-serif;
+  }
+
+
+
+
+
 body {
   font-family: var(--font-body);
   background-color: var(--color-light-bg);
@@ -20,7 +25,7 @@ body {
   transition-duration: 300ms;
 }
 
-/* Jika dalam mode gelap (class 'dark' di html) */
+
 .dark body {
   background-color: var(--color-dark-bg);
   color: #fff;

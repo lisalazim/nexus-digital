@@ -6,10 +6,10 @@ const html = document.querySelector('html');
 // Cek preferensi user saat halaman dimuat
 if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
   html.classList.add('dark');
-  themeToggle.innerHTML = '☀️'; // Ikon Matahari untuk mode terang
+  themeToggle.innerHTML = '☀️'; 
 } else {
   html.classList.remove('dark');
-  themeToggle.innerHTML = '🌙'; // Ikon Bulan untuk mode gelap
+  themeToggle.innerHTML = '🌙'; 
 }
 
 // Logika saat tombol diklik

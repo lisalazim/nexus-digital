@@ -10,7 +10,7 @@ export default {
       colors: {
         primary: '#6366F1',
         secondary: '#06B6D4',
-        darkBg: '#0F172A',
+        darkBg: '#020625',
         lightBg: '#F8FAFC',
       },
       fontFamily: {
