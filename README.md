@@ -59,7 +59,7 @@ npm run dev
 
 ```
 
-Buka [http://localhost:3000](https://www.google.com/search?q=http://localhost:3000) di browser kamu untuk melihat hasilnya.
+Buka localhost di browser kamu untuk melihat hasilnya.
 
 ---
 
@@ -77,14 +77,6 @@ Buka [http://localhost:3000](https://www.google.com/search?q=http://localhost:30
 
 ---
 
-## 📸 Preview
-
-| Desktop View | Mobile View |
-| --- | --- |
-|  |  |
-
----
-
 ## 🤝 Contribution
 
 Ingin berkontribusi? Silakan fork repositori ini dan kirimkan Pull Request (PR). Semua masukan sangat dihargai!
@@ -97,7 +89,7 @@ Proyek ini dilisensikan di bawah MIT License.
 
 ---
 
-**Build with 💙 by [Nama Kamu/Nexus Team]**
+**Build with 💙 by lisa.codesign **
 
 ```
 
